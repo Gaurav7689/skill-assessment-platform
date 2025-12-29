@@ -1,0 +1,182 @@
+/* Results Page Responsive Styles */
+
+/* Base styles - Mobile First */
+.result-card {
+  border-radius: 15px;
+  padding: 1rem;
+  margin-bottom: 1rem;
+  background: #ffffff;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+.result-header {
+  text-align: center;
+  margin-bottom: 1.5rem;
+}
+
+.score-display {
+  font-size: 2rem;
+  font-weight: bold;
+  color: #0d6efd;
+  margin-bottom: 0.5rem;
+}
+
+.percentage-display {
+  font-size: 1.25rem;
+  color: #6c757d;
+  margin-bottom: 1rem;
+}
+
+.result-stats {
+  display: flex;
+  justify-content: space-around;
+  margin-bottom: 1.5rem;
+}
+
+.stat-item {
+  text-align: center;
+  padding: 0.5rem;
+}
+
+.stat-value {
+  font-size: 1.5rem;
+  font-weight: bold;
+  display: block;
+}
+
+.stat-label {
+  font-size: 0.875rem;
+  color: #6c757d;
+}
+
+.questions-review {
+  margin-top: 2rem;
+}
+
+.question-item {
+  border: 1px solid #dee2e6;
+  border-radius: 10px;
+  padding: 1rem;
+  margin-bottom: 1rem;
+  background: #f8f9fa;
+}
+
+.question-text {
+  font-weight: bold;
+  margin-bottom: 0.5rem;
+}
+
+.correct-answer {
+  color: #198754;
+  font-weight: bold;
+}
+
+.wrong-answer {
+  color: #dc3545;
+  font-weight: bold;
+}
+
+/* Mobile Styles */
+@media (max-width: 767px) {
+  .result-card {
+    padding: 0.75rem;
+    margin-bottom: 0.75rem;
+  }
+
+  .score-display {
+    font-size: 1.75rem;
+  }
+
+  .percentage-display {
+    font-size: 1rem;
+  }
+
+  .result-stats {
+    flex-direction: column;
+    gap: 1rem;
+  }
+
+  .stat-item {
+    padding: 0.75rem;
+  }
+
+  .stat-value {
+    font-size: 1.25rem;
+  }
+
+  .stat-label {
+    font-size: 0.75rem;
+  }
+
+  .question-item {
+    padding: 0.75rem;
+  }
+}
+
+/* Tablet Styles */
+@media (min-width: 768px) and (max-width: 991px) {
+  .result-card {
+    padding: 1.25rem;
+    margin-bottom: 1.25rem;
+  }
+
+  .score-display {
+    font-size: 2.25rem;
+  }
+
+  .percentage-display {
+    font-size: 1.125rem;
+  }
+
+  .result-stats {
+    margin-bottom: 2rem;
+  }
+
+  .stat-item {
+    padding: 0.75rem;
+  }
+
+  .stat-value {
+    font-size: 1.75rem;
+  }
+
+  .question-item {
+    padding: 1.25rem;
+  }
+}
+
+/* Desktop Styles */
+@media (min-width: 992px) {
+  .result-card {
+    padding: 2rem;
+    margin-bottom: 2rem;
+    max-width: 800px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .score-display {
+    font-size: 3rem;
+  }
+
+  .percentage-display {
+    font-size: 1.5rem;
+  }
+
+  .result-stats {
+    margin-bottom: 2.5rem;
+  }
+
+  .stat-item {
+    padding: 1rem;
+  }
+
+  .stat-value {
+    font-size: 2rem;
+  }
+
+  .question-item {
+    padding: 1.5rem;
+    margin-bottom: 1.5rem;
+  }
+}

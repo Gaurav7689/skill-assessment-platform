@@ -1,0 +1,29 @@
+/* Background */
+.auth-container {
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: linear-gradient(135deg, #0d6efd, #6610f2);
+  padding: 20px;
+}
+
+/* Card */
+.auth-card {
+  background: #fff;
+  width: 380px;
+  border-radius: 20px;
+  padding: 30px;
+}
+
+/* Input Group */
+.input-group-text {
+  background: #eef1ff;
+  font-size: 1.2rem;
+  border-right: none;
+}
+
+/* Button */
+.btn {
+  border-radius: 30px;
+}

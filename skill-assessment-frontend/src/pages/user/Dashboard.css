@@ -1,0 +1,99 @@
+.welcome-card {
+  border-left: 8px solid #0d6efd;
+  background: #f8faff;
+  border-radius: 15px;
+  padding: 1rem;
+  margin-bottom: 1.5rem;
+}
+
+.stat-card {
+  border-radius: 15px;
+  text-align: center;
+  background: #ffffff;
+  padding: 1rem;
+  margin-bottom: 1rem;
+}
+
+.test-card {
+  border-radius: 15px;
+  transition: 0.2s;
+  padding: 1rem;
+  margin-bottom: 1rem;
+}
+
+.test-card:hover {
+  transform: translateY(-3px);
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.15);
+}
+
+.table {
+  border-radius: 10px;
+  overflow: hidden;
+  font-size: 0.875rem;
+}
+
+/* Mobile Styles */
+@media (max-width: 767px) {
+  .welcome-card {
+    padding: 0.75rem;
+    margin-bottom: 1rem;
+  }
+
+  .stat-card {
+    padding: 0.75rem;
+    margin-bottom: 0.75rem;
+  }
+
+  .test-card {
+    padding: 0.75rem;
+    margin-bottom: 0.75rem;
+  }
+
+  .table {
+    font-size: 0.75rem;
+  }
+}
+
+/* Tablet Styles */
+@media (min-width: 768px) and (max-width: 991px) {
+  .welcome-card {
+    padding: 1.25rem;
+    margin-bottom: 1.25rem;
+  }
+
+  .stat-card {
+    padding: 1.25rem;
+    margin-bottom: 1rem;
+  }
+
+  .test-card {
+    padding: 1.25rem;
+    margin-bottom: 1rem;
+  }
+
+  .table {
+    font-size: 0.875rem;
+  }
+}
+
+/* Desktop Styles */
+@media (min-width: 992px) {
+  .welcome-card {
+    padding: 1.5rem;
+    margin-bottom: 2rem;
+  }
+
+  .stat-card {
+    padding: 1.5rem;
+    margin-bottom: 1.5rem;
+  }
+
+  .test-card {
+    padding: 1.5rem;
+    margin-bottom: 1.5rem;
+  }
+
+  .table {
+    font-size: 1rem;
+  }
+}

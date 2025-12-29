@@ -1,0 +1,27 @@
+/* Profile Circle */
+.profile-circle {
+  width: 45px;
+  height: 45px;
+  background: #0d6efd;
+  color: white;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: bold;
+  font-size: 1.2rem;
+}
+
+/* Rank Backgrounds */
+.gold-card {
+  border-left: 8px solid #f1c40f;
+}
+.silver-card {
+  border-left: 8px solid #bdc3c7;
+}
+.bronze-card {
+  border-left: 8px solid #cd7f32;
+}
+.normal-card {
+  border-left: 8px solid #0d6efd;
+}

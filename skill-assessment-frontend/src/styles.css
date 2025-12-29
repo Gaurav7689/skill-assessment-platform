@@ -1,0 +1,104 @@
+/* Global Responsive Styles */
+
+/* Base styles - Mobile First */
+body {
+  font-size: 14px;
+  line-height: 1.5;
+}
+
+h1 { font-size: 1.75rem; }
+h2 { font-size: 1.5rem; }
+h3 { font-size: 1.25rem; }
+h4 { font-size: 1.125rem; }
+h5 { font-size: 1rem; }
+h6 { font-size: 0.875rem; }
+
+/* Container adjustments */
+.container {
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+/* Button adjustments */
+.btn {
+  padding: 0.5rem 1rem;
+  font-size: 0.875rem;
+}
+
+/* Card adjustments */
+.card {
+  margin-bottom: 1rem;
+}
+
+/* Form adjustments */
+.form-control {
+  font-size: 0.875rem;
+  padding: 0.5rem;
+}
+
+/* Table adjustments */
+.table {
+  font-size: 0.875rem;
+}
+
+/* Tablet Styles (768px and up) */
+@media (min-width: 768px) {
+  body {
+    font-size: 16px;
+  }
+
+  h1 { font-size: 2.5rem; }
+  h2 { font-size: 2rem; }
+  h3 { font-size: 1.75rem; }
+  h4 { font-size: 1.5rem; }
+  h5 { font-size: 1.25rem; }
+  h6 { font-size: 1rem; }
+
+  .container {
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+
+  .btn {
+    padding: 0.75rem 1.5rem;
+    font-size: 1rem;
+  }
+
+  .card {
+    margin-bottom: 1.5rem;
+  }
+
+  .form-control {
+    font-size: 1rem;
+    padding: 0.75rem;
+  }
+
+  .table {
+    font-size: 1rem;
+  }
+}
+
+/* Desktop Styles (992px and up) */
+@media (min-width: 992px) {
+  .container {
+    max-width: 1200px;
+    padding-left: 30px;
+    padding-right: 30px;
+  }
+
+  .btn {
+    padding: 1rem 2rem;
+    font-size: 1.125rem;
+  }
+
+  .card {
+    margin-bottom: 2rem;
+  }
+}
+
+/* Large Desktop Styles (1200px and up) */
+@media (min-width: 1200px) {
+  .container {
+    max-width: 1400px;
+  }
+}
